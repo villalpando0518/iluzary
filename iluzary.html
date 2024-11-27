@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Pagina de presentacion para Iluzary-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Iluzary</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <!-- <img id="logo" srcset="media/iluzary.png" alt="iluzary" /> -->
+            <h1>Iluzary</h1>
+            <nav id="menu">
+                <a href="#trabajos">Trabajos</a>
+                <a href="#personajes">Diseño de personajes</a>
+                <a id="hmm" href="#musica">Musica</a>
+                <a href="cv.html">Curriculum</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+
+        <section id="inicio">
+            <video autoplay muted loop>
+                <source src="media/intro.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="trabajos">
+            <h1>Trabajos</h1>
+            <div class="galeria">
+                <img src="media/mano.avif" alt="mano" />
+                <img src="media/fruta.avif" alt="fruta" />
+                <img src="media/arbol.avif" alt="arbol" />
+                <img src="media/casio.avif" alt="calista" />
+                <img src="media/flor.avif" alt="flor" />
+                <img src="media/corazon.avif" alt="corazon" />
+            </div>
+        </section>
+
+        <section id="personajes">
+            <br />
+            <h1 class="black">Diseño de Personajes</h1>
+            <div class="galeria">
+                <img src="media/alum.avif" alt="alum" />
+                <img src="media/maga.avif" alt="maga" />
+                <img src="media/zyan.avif" alt="zyan" />
+                <img src="media/personaje.avif" alt="personaje" />
+            </div>
+        </section>
+
+        <section id="musica">
+            <br />
+            <h1>Música</h1>
+            <video controls poster="media/poster.png">
+                <source src="media/i_promise_you.mkv" />
+            </video>
+            <br />
+            <a
+                href="https://www.youtube.com/watch?v=48g85j_yYnU"
+                target="_blank"
+            >
+                <img src="media/yt_icon.png" alt="yt" />
+            </a>
+        </section>
+
+        <section id="cv"></section>
+
+        <section id="contacto">
+            <br />
+            <h1 class="black">Contacto</h1>
+
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <br />
+                <input type="text" id="name" name="name" required />
+                <br />
+
+                <label for="email">Email:</label>
+                <br />
+                <input type="email" id="email" name="email" required />
+                <br />
+
+                <label for="message">Mensaje:</label>
+                <br />
+                <textarea id="message" name="message" required></textarea>
+                <br />
+
+                <button type="submit">Enviar</button>
+            </form>
+            <br />
+
+            <a href="https://www.facebook.com">
+                <img src="media/fb_icon.png" alt="facebook" />
+            </a>
+            <a href="https://www.instagram.com/iluzary/">
+                <img src="media/ig_icon.png" alt="instagram" />
+            </a>
+            <a href="https://www.youtube.com/@iluzary6406">
+                <img src="media/yt_icon.png" alt="youtube" />
+            </a>
+            <a href="https://twitch.tv">
+                <img src="media/twitch_icon.png" alt="twitch" />
+            </a>
+        </section>
+    </body>
+</html>

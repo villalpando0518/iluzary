@@ -1,0 +1,109 @@
+* {
+    scroll-behavior: smooth;
+}
+header {
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 2;
+}
+#menu {
+    font-size: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15%;
+}
+a {
+    text-decoration: none;
+    color: #9B287B;//plumb
+    line-height: 1;
+}
+a:hover {
+    color: #5C164E;
+}
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+#inicio {
+    height: 100vh;
+}
+#inicio video {
+    position: fixed;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 115%;
+
+    z-index: -1;
+}
+#logo {
+    height: 15vh;
+}
+
+.galeria {
+    display: flexbox;
+    flex-flow: flex-wrap;
+
+    padding: 0px 50px;
+    padding-bottom: 20px;
+}
+
+#trabajos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+#personajes {
+    background-color: lightgray;
+}
+
+#musica {
+    background-color: darkgrey;
+    height: 100vh;
+    padding-bottom: 40px;
+}
+
+#musica video {
+    width: 60%;
+}
+
+#cv_ {
+    background-color: #5ec2b7;
+}
+
+#cv {
+    padding-top: 20px;
+}
+
+#contacto {
+    background-color: #a69cac;
+    padding-bottom: 40px;
+    color: black;
+}
+
+@font-face {
+    font-family: "savoye";
+    src:
+        url("fonts/savoye.woff2") format("woff2"),
+        url("fonts/savoye.woff") format("woff");
+}
+
+h1 {
+    font-family: "savoye", sans-serif;
+    font-weight: normal;
+    font-size: 4.5em;
+    line-height: 0.5;
+}
+
+.black {
+    color: black;
+}
+p {
+    font-family: Helvetica, sans-serif;
+}
